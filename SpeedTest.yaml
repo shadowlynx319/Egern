@@ -1,0 +1,14 @@
+name: "网络测速"
+description: "Speedtest 极简官方复刻版"
+
+auto_update:
+  interval: 43200
+
+scriptings:
+  - generic:
+      name: 网络测速
+      script_url: https://raw.githubusercontent.com/xemeiss/Script/main/Egern/Widget/SpeedTest.js
+
+widgets:
+  - name: 网络测速
+    script_name: 网络测速
