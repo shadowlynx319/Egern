@@ -362,7 +362,7 @@ export default async function(ctx) {
       UnlockRow("GPT", gptStatus),
       UnlockRow("Gemini", geminiStatus),
       UnlockRow("YouTube", youtubeStatus),
-      UnlockRow("奈飞", netflixStatus),
+      UnlockRow("Netflix", netflixStatus),
       UnlockRow("TikTok", tiktokStatus)
     ]
   };
