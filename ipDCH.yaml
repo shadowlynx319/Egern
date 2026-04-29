@@ -1,0 +1,14 @@
+name: "网络落地"
+description: "网络落地、流媒体、AI解锁检测"
+
+auto_update:
+  interval: 43200
+
+scriptings:
+  - generic:
+      name: 网络落地检测
+      script_url: https://raw.githubusercontent.com/shadowlynx319/Egern/refs/heads/main/ip-dch.js
+
+widgets:
+  - name: 网络落地检测
+    script_name: 网络落地检测
