@@ -1,6 +1,6 @@
 export default async function(ctx) {
   const widgetFamily = ctx.widgetFamily || 'systemMedium';
-  const BG_COLOR = { light: '#FFFFFF', dark: '#1C1C1E' };
+  const BG_COLOR = { light: '#FFFFFF', dark: '#2C2C2E' };
   const C_TITLE = { light: '#1A1A1A', dark: '#FFD700' };
   const C_SUB = { light: '#666666', dark: '#B0B0B0' };
   const C_MAIN = { light: '#1A1A1A', dark: '#FFFFFF' };
