@@ -326,7 +326,7 @@ export default async function(ctx) {
   const HEADER_GAP = 4;
   const TOP_GAP = 3;
   const INFO_GAP = 2.5;
-  const BOTTOM_GAP_LEFT = 3;
+  const BOTTOM_GAP_LEFT = 2;
   const BOTTOM_GAP_RIGHT = 2;
   const COL_GAP = 12;
 
