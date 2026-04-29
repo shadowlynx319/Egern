@@ -274,7 +274,7 @@ export default async function(ctx) {
         { type: 'image', src: `sf-symbol:${iconName}`, color: C_ICON, width: SMALL_ICON, height: SMALL_ICON },
         { type: 'text', text: label, font: { size: SMALL_FONT }, textColor: C_SUB },
         { type: 'spacer' },
-        { type: 'text', text: value, font: { size: SMALL_FONT, weight: 'bold' }, textColor: valueCol, maxLines: 1, minScale: 0.5, lineBreakMode: 'tail' }
+        { type: 'text', text: value, font: { size: SMALL_FONT, weight: 'bold' }, textColor: valueCol, maxLines: 1, lineBreakMode: 'tail' }
       ]
     };
   }
@@ -290,7 +290,7 @@ export default async function(ctx) {
       gap: 4,
       children: [
         { type: 'image', src: `sf-symbol:${iconName}`, color: iconCol, width: SMALL_ICON, height: SMALL_ICON },
-        { type: 'text', text: name, font: { size: SMALL_FONT, weight: 'medium' }, textColor: C_MAIN, flex: 1 },
+        { type: 'text', text: name, font: { size: SMALL_FONT, weight: 'medium' }, textColor: C_MAIN},
         { type: 'spacer' },
         { type: 'text', text: result, font: { size: SMALL_FONT, weight: 'bold' }, textColor: iconCol, maxLines: 1 }
       ]
@@ -311,7 +311,7 @@ export default async function(ctx) {
         { type: 'image', src: `sf-symbol:${sevIcon(grade.sev)}`, color: col, width: SMALL_ICON, height: SMALL_ICON },
         { type: 'text', text: src, font: { size: SMALL_FONT }, textColor: C_SUB },
         { type: 'spacer' },
-        { type: 'text', text: val, font: { size: SMALL_FONT, weight: 'bold' }, textColor: col, maxLines: 1, minScale: 0.5, lineBreakMode: 'tail' }
+        { type: 'text', text: val, font: { size: SMALL_FONT, weight: 'bold' }, textColor: col, maxLines: 1, lineBreakMode: 'tail' }
       ]
     };
   }
